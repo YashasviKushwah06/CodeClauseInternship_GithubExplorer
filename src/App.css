@@ -1,0 +1,93 @@
+body {
+  background: url('./assets/Screenshot_2024-06-20_111040-transformed.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+  
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #fafafa;
+  margin-bottom: 99%;
+}
+
+body.active {
+  background: url('./assets/wallpaperflare.com_wallpaper.jpg') no-repeat center fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.App h1 {
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 15px;
+  width: 280px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #586069;
+}
+
+input:hover {
+  border: 3px solid #46E1FE;
+  background-color: #586069;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 25px;
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 5px 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.App button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #586069;
+  border: none;
+  outline: none;
+}
+
+.App button:hover {
+  background-color: #071427;
+  color: #46E1FE;
+  opacity: .8;
+  transition: 0.3s ease;
+  border: 3px solid #46E1FE;
+}
